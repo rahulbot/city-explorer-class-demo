@@ -1,6 +1,5 @@
 <script>
-	let { info } = $props();
-	let {name, description, topSites} = info;
+	let { name, description, topSites } = $props();
 </script>
 
 <div class="details">

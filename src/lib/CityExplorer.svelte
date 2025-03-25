@@ -17,9 +17,11 @@
 </script>
 
 <div class="picker">
-	<h2>This is the City Picker for {selectedCity} ✈️</h2>
+	<h2>All About {selectedCity} ✈️</h2>
 	<CityPicker changeChoice={changeSelectedCity} choices={cityNames} />
-	<CityDetails info={selectedDetails} />
+	<CityDetails name={selectedDetails.name}
+				 description={selectedDetails.description}
+				 topSites={selectedDetails.description} />
 </div>
 
 <style>
