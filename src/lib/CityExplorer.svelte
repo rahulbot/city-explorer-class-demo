@@ -1,6 +1,6 @@
 <script>
 	import cityInfo from './cityinfo.json';
-	import CityPicker from './CityPicker.svelte';	
+	import CityPicker from './CityPicker.svelte';
 	import CityDetails from './CityDetails.svelte';	
 
 	const cityNames = cityInfo.map(city => city.name);
